@@ -1,4 +1,6 @@
-README for bmp_traceswo:
+# README for bmp_traceswo:
+
+_This has been modified to work properly for my STM32F107 board. I make no guarantees that it works for other boards - the original version just didn't work._
 
 A simple application which uses libusb-1.0 to open the TRACESWO USB endpoint
 on the Black Magic Probe and dump the incoming data. Note that the TRACESWO
